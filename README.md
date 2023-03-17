@@ -24,7 +24,7 @@ pip install -r requirements.txt
 3. Input or import items A, B, and C, which can be historical passwords, parts of historical passwords, or birthdays, years, or mobile phone numbers.
 
 4. Click the "Generate Dictionary" button to generate the password dictionary.
-
+![My Image](test.png)
 
 ## Disclaimer
 
