@@ -17,7 +17,7 @@ pip install -r requirements.txt
 
 ## Usage
 
-1. python SEPDG.py
+1. python3 SEPDG.py
 
 2. Enter the combination method, separated by commas.
 
