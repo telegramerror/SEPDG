@@ -51,7 +51,10 @@ class Application(tk.Frame):
         self.progress_label.grid(row=5, column=1)
         self.progress_bar = ttk.Progressbar(self, orient="horizontal", mode="determinate")
         self.progress_bar.grid(row=6, column=1)
-        
+        self.link_label = tk.Label(self, text="https://t.me/cvehub", fg="blue", cursor="hand2")
+        self.link_label.grid(row=7, column=2, sticky="se")
+        self.link_label.bind("<Button-1>", lambda e: webbrowser.open_new("https://t.me/cvehub"))
+
     def import_a_file(self):
         file_path = filedialog.askopenfilename()
         with open(file_path, "r") as f:
