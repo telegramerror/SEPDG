@@ -30,5 +30,3 @@ pip install -r requirements.txt
 ## Disclaimer
 
 This tool is intended for educational and ethical purposes only. Do not use it for any illegal activities. The developer is not responsible for any misuse of this tool.
-
-CVE-2023-23415
